@@ -1,0 +1,31 @@
+{
+    "name": "swag/payment-plugin",
+    "description": "Payment plugin guide",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shopware AG"
+        }
+    ],
+    "require": {
+        "shopware/core": "*"
+    },
+    "extra": {
+        "shopware-plugin-class": "Swag\\PaymentPlugin\\PaymentPlugin",
+        "label": {
+            "de-DE": "Label für das Plugin PaymentPlugin",
+            "en-GB": "Label for the plugin PaymentPlugin"
+        },
+        "description": {
+            "de-DE": "Beschreibung für das Plugin PaymentPlugin",
+            "en-GB": "Description for the plugin PaymentPlugin"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\PaymentPlugin\\": "src/"
+        }
+    }
+}
