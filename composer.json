@@ -1,31 +1,29 @@
 {
-    "name": "swag/payment-plugin",
-    "description": "Payment plugin guide",
-    "version": "v1.0.0",
+    "name": "pakkeloesninger/shopware-quickpay",
+    "description": "Quickpay Payment Plugin",
+    "version": "v0.0.1",
     "type": "shopware-platform-plugin",
     "license": "MIT",
     "authors": [
         {
-            "name": "shopware AG"
+            "name": "Martin Kenth Knudsen @Webkenth"
         }
     ],
     "require": {
         "shopware/core": "*"
     },
     "extra": {
-        "shopware-plugin-class": "Swag\\PaymentPlugin\\PaymentPlugin",
+        "shopware-plugin-class": "Pakkeloesninger\\Quickpay\\QuickpayPlugin",
         "label": {
-            "de-DE": "Label für das Plugin PaymentPlugin",
-            "en-GB": "Label for the plugin PaymentPlugin"
+            "en-GB": "Quickpay Payment Plugin"
         },
         "description": {
-            "de-DE": "Beschreibung für das Plugin PaymentPlugin",
-            "en-GB": "Description for the plugin PaymentPlugin"
+            "en-GB": "Integrates Quickpay with Shopware 6"
         }
     },
     "autoload": {
         "psr-4": {
-            "Swag\\PaymentPlugin\\": "src/"
+            "Pakkeloesninger\\Quickpay\\": "src/"
         }
     }
 }

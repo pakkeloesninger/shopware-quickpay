@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Swag\PaymentPlugin;
+namespace Pakkeloesninger\Quickpay;
 
-use Swag\PaymentPlugin\Service\ExamplePayment;
+use Pakkeloesninger\Quickpay\Service\QuickpayPayment;
 use Shopware\Core\Framework\Context;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityRepositoryInterface;
 use Shopware\Core\Framework\DataAbstractionLayer\Search\Criteria;
@@ -14,7 +14,7 @@ use Shopware\Core\Framework\Plugin\Context\InstallContext;
 use Shopware\Core\Framework\Plugin\Context\UninstallContext;
 use Shopware\Core\Framework\Plugin\Util\PluginIdProvider;
 
-class PaymentPlugin extends Plugin
+class QuickpayPlugin extends Plugin
 {
     public function install(InstallContext $context): void
     {

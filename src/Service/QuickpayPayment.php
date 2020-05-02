@@ -12,7 +12,7 @@ use Shopware\Core\System\SalesChannel\SalesChannelContext;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 
-class ExamplePayment implements AsynchronousPaymentHandlerInterface
+class QuickpayPayment implements AsynchronousPaymentHandlerInterface
 {
     /**
      * @var OrderTransactionStateHandler
